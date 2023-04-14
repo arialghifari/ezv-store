@@ -42,7 +42,7 @@ export default function ProductDetail() {
     <>
       <Navigation />
       <div className="shadow flex flex-col">
-        <div className="h-[200px] md:h-[500px] p-5 bg-white rounded-t">
+        <div className="h-[250px] md:h-[650px] p-5 bg-white rounded-t">
           <Image
             src={product?.thumbnail}
             alt={`${product?.title} - ${product?.brand}`}
@@ -78,7 +78,7 @@ export default function ProductDetail() {
                   alt={`${product?.title} - ${product?.brand}`}
                   width={200}
                   height={200}
-                  className="rounded"
+                  className="rounded object-cover"
                 />
               ))}
             </div>
