@@ -12,7 +12,7 @@ type Product = {
   category: string;
   price: number;
   rating: number;
-  images: [string] | any;
+  images: string[];
 };
 
 export default function ProductDetail() {
